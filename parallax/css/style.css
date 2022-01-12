@@ -1,0 +1,87 @@
+:root
+{
+    --primery-color: #FFF;
+}
+body{
+    margin: 0;
+    font: 16px 'Lato', sans-serif;
+    color: #777;
+    height: 100vh;
+}
+
+h3
+{
+    text-transform: uppercase;
+    text-align: center;   
+    color: #111;
+}
+
+p
+{
+    margin-bottom: 20px;
+}
+
+.conteudo
+{
+    color:#777;
+    background-color: var(--primery-color);
+    text-align: justify;    
+    padding: 50px 80px;
+}
+
+.caixa1, .caixa2, .caixa3, .caixa4
+{
+    position: relative;
+    height: 100%;
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*<-*/
+}
+
+.caixa1
+{
+    background-image: url(/imagens/imagem1.jpg);
+}
+
+.caixa2
+{
+    background-image: url(/imagens/imagem2.jpg);
+
+}
+
+.caixa3
+{
+    background-image: url(/imagens/imagem3.jpg);
+
+}
+
+.caixa4
+{
+    background-image: url(/imagens/imagem6.jpg);
+
+}
+
+.conteudo-titulo
+{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo
+{
+    color: var(--primery-color);
+    padding: 18px; 
+    background-color: rgba(17, 17, 17, 0.438);
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border-radius: 20px;
+
+}
+
+/* efeito parallax */
